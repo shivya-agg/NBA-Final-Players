@@ -19,7 +19,7 @@ struct StatsText: View {
             Text(statName + ":").font(.system(size: 40)).fontWeight(.bold).padding(.leading, 30) //this one remains fixed
                 Text(statValue).font(.system(size: 50)).fontWeight(.light) .padding(.trailing, 20) //this text keeps on changing
             Spacer()
-            }
+            }.minimumScaleFactor(0.5)
     }
 }
 
